@@ -38,17 +38,17 @@
   left: 35%;
 }
 
-#bigFacts {
+.bigFacts {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
 
-#bigFacts .small {
+.bigFacts .small {
 
 }
 
-#bigFacts .big {
+.bigFacts .big {
 
 }
