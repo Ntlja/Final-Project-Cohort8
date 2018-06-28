@@ -1,0 +1,54 @@
+#container {
+  height: 10000px;
+  width: 100%;
+}
+#slide1{
+  display:flex;
+  flex-direction: row;
+}
+#countries {
+  position: relative;
+  width: 50vw;
+  padding: 50px 0 0 100px;
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100%;
+}
+
+.country {
+  position: absolute;
+  opacity:0;
+  transition: opacity 0.3s ease 0.1s, transform 0.3s ease;
+}
+
+#germany {
+  top: 20%;
+  left: 90%;
+}
+
+#france {
+  top: 50%;
+  left: 60%;
+}
+
+#spain {
+  top: 75%;
+  left: 35%;
+}
+
+#bigFacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#bigFacts .small {
+
+}
+
+#bigFacts .big {
+
+}
