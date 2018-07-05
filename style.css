@@ -18,6 +18,7 @@ p{
   justify-content: center;
 }
 
+
 #container {
   height: 100000px;
   width: 100%;
@@ -35,14 +36,16 @@ p{
   height:100vw;
   box-sizing: border-box;
 }
-.fix{
-  position: relative;
-}
+
 .map{
 
   margin:0;
   padding:0;
-  /*position: absolute;*/
+  top:50%;
+  transform: translateY(-50%);
+  left:50px;
+
+  position: absolute;
   width: 100%;
 }
 
@@ -61,18 +64,18 @@ p{
 }
 
 #germany {
-  top: 20%;
+  top: 30%;
   left: 90%;
 }
 
 #france {
-  top: 50%;
+  top: 45%;
   left: 60%;
 }
 
 #spain {
-  top: 75%;
-  left: 35%;
+  top: 65%;
+  left: 25%;
 }
 
 #bigFactsContainer{
